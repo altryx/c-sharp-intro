@@ -26,8 +26,15 @@ namespace c_sharp_intro
             // Instead of traditional concatenation using the addition operator...
             // We can use string interpolation (placeholders) to embed values in
             // a string!
+            // @Link https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated
             Console.WriteLine("Hey {0}, you're looking great today!", userName);
 
+            // Let's play with strings!
+            Console.WriteLine("makemeuppercase".ToUpper());
+            Console.WriteLine("MAKEMELOWERCASE".ToLower());
+            // Substring takes two argument: 1) Starting character position 2) Number of characters to collect.
+            Console.WriteLine("ABCDEFGHIJKLMNOPQRSTUVWXYZ".Substring(3, 3));
+            Console.WriteLine("XYZ".Length);
         }
     }
 }
