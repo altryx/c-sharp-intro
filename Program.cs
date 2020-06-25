@@ -34,6 +34,7 @@ namespace c_sharp_intro
 
             Console.WriteLine("3" + "3"); // "33"
             Console.WriteLine(3 + 6 + "3"); // "93"
+            Console.WriteLine("3" + 3 + 3); // "333"
 
             Console.WriteLine(myInt); // 42
 
